@@ -7,11 +7,7 @@
 #### Database Integration: Connects to a MySQL database to store and update face detection data.
 #### Real-Time Processing: Capable of processing video streams in real-time to continuously detect and recognize faces.
 ### Prerequisites
-#### Python 3.x
-#### OpenCV
-#### face_recognition
-#### mysql-connector-python
-#### A MySQL server with a database named presenting
+#### Python 3.x, OpenCV, face_recognition, mysql-connector-python, and a MySQL server with a database named presenting
 ### Code Explanation
 ### Database Connection:
 #### Establishes a connection to a MySQL database and ensures the required column (FaceCount) exists in the collecting_data table.
@@ -26,9 +22,7 @@
 ### Real-Time Processing:
 #### Continuously captures frames from a video stream, processes them for face detection and recognition, and updates the display with demographic information.
 ### Dependencies
-#### OpenCV
-#### face_recognition
-#### mysql-connector-python
+#### OpenCV, face_recognition, mysql-connector-python
 ### Login and Registration page for viewing the visualizaion
 ### Description
 #### This Python application integrates Tkinter for the GUI, MySQL for database management, and Matplotlib along with Seaborn for data visualization. It provides a simple login system, user registration, and visual representations of database-stored data.
